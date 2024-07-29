@@ -12,7 +12,9 @@ project "imgui"
         "*.cpp",
         "*.h",
         "backends/imgui_impl_glfw.cpp",
-        "backends/imgui_impl_opengl3.cpp"
+        "backends/imgui_impl_opengl3.cpp",
+        "misc/cpp/imgui_stdlib.cpp",
+        "misc/cpp/imgui_stdlib.h"
     }
 
     includedirs
